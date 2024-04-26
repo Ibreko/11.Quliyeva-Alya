@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 10px 0;
+    
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    margin-right:100px ;
+    
+
+}
+.logo img{
+    width: 100%;
+}
+.logo{
+    width: 5%;
+    margin-right: 145px;
+}
+.link a{
+    list-style-type: none;
+}
+
+nav i{
+    font-size: 27px;
+    padding: 10px ;
+    margin-top: 20px;
+}
+.linki1{
+    margin-top: 23px;
+}
+.reserve{
+    text-decoration: none;
+    color: rgb(248, 245, 245);
+    font-size: 27px ;
+    margin-right: 30px;
+}
+.foto-zaqolovka{
+    width: 100%;
+    
+}
+.foto-zaqolovka video{
+    width: 100%;
+}
+
+
+.pole-reserve{
+    display: flex;
+    justify-content: space-around;
+    width: 73%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 10px;
+    opacity: 0;
+}
+.arrival{
+    background-color: #1c4042;
+    text-align: center;
+    width: 100%;
+    margin: 0 10px;
+}
+.arrival h2{
+    color: white;
+    font-size: 40px;
+}
+.arrival h5{
+    color: white;
+    font-size: 20px;
+}
+.arrival h1{
+    font-size: 80px;
+    color: #b7c0c1;
+}
+.div{
+    background-color:#31696d;
+    width: 100%;
+    font-size: 25px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 10px 0;
+    border-radius: 10px;
+    
+}
+select{
+    padding: 5px;
+    border-radius: 10px;
+}
+.data{
+    width: 36%;
+    background-color: #82aaa1;
+    padding: 20px;
+    ;
+}
+.data1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.komnati{
+    padding: 20px;
+    margin-right: 10px;
+    background-color:#82aaa1;
+    color: white;
+}
+.komnati h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+input{
+    padding: 6px;
+    border-radius: 10px;
+}
+.summa{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+.summa h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.summa h1{
+    font-size: 40px ;
+    margin-bottom: 15px;
+}
+button{
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.korabl{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    width: 50%;
+}
+.knopka{
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    rotate: -7deg;
+    background-color: #dacbb8;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+}
+.knopka-rezerv{
+    opacity: 1;
+}

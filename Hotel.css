@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 10px 0;
+    background-color: #395c82;
+    z-index: 1;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    margin-right:100px ;
+    
+
+}
+.logo img{
+    width: 100%;
+}
+.logo{
+    width: 5%;
+    margin-right: 145px;
+}
+.link a{
+    list-style-type: none;
+}
+
+nav i{
+    font-size: 27px;
+    padding: 10px ;
+    margin-top: 20px;
+}
+.linki1{
+    margin-top: 23px;
+}
+.reserve{
+    text-decoration: none;
+    color: rgb(248, 245, 245);
+    font-size: 27px ;
+    margin-right: 30px;
+}
+.foto-zaqolovka{
+    width: 100%;
+}
+.foto-zaqolovka img{
+    height: 735px;
+    width: 100%;  
+}
+.foto-zaqolovka h1{
+    position:absolute;
+    top: 30%;
+    left: 18%;
+    font-size: 250px;
+    color: white;
+}
+
+
+
+.div1-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+}
+.div1-info img{
+    width: 30%;
+    margin-right: 130px;
+    padding: 0 30px;
+}
+.div1-s-textom{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+.div1-s-textom h2{
+    width: 80%;
+    margin: auto;
+}
+.div1-s-textom p{
+    margin-top: 30px;
+}
+.div2-s-foto{
+    display: flex;
+    justify-content: center;
+}
+.div1{
+    width: 50%;
+}
+.div1 img{
+    width: 100%;
+}
+.div2{
+    width: 100%;
+}
+.div2 img{
+    width: 100%;
+}
+.div3-s-foto{
+    display: flex;
+    justify-content: space-around;
+}
+.div3-s-foto img{
+    width: 25%;
+}
+.div-s-foto{
+    padding: 160px;
+}
+.div-s-foto img{
+    padding: 8px;
+}
+
+
+
+
+.foto-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 110px;
+}
+.foto-text img{
+    width: 90%;
+    padding: 30px;
+}
+.foto-text1{
+    width: 50%;
+    padding: 10px;
+}
+.foto-text2{
+    width: 50%;
+    padding: 10px;
+}
+.foto-text p{
+    width: 58%;
+    font-size: 17px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.foto-text h2{
+    width: 60%;
+    margin: auto;
+}
+
+.div-s-textom{
+    padding: 10px;
+}
+
+
+.iqrovaya{
+    display: flex;
+    justify-content: center;
+    padding: 0 150px 150px 150px;
+    text-align: center;
+}
+.text-i-foto{
+    width: 50%;
+    padding: 30px 30px 0px 30px;
+}
+.text-i-foto img{
+    width: 100%;
+    margin-top: 33px;
+}
+#iqrovaya-foto{
+    width: 40%;
+    padding: 200px 0 0 0;
+}
+.text-i-foto h2{
+    margin-top:250px ;
+}
+.text-i-foto p{
+    margin-top:40px ;
+}
+
+
+#menu-logo{
+    width: 20%;
+}
+.restoran{
+    text-align: center;
+}
+.restoran h2{
+    margin: 20px 0 10px 0;
+}
+.restoran p{
+    width: 40%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+#zal{
+width: 100%;
+height: 600px;
+}
+.sponsor{
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+    background-color: #395c82;
+}
+.sponsor img{
+    width: 10%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    vertical-align:middle;
+}
+footer li{
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #4ea5b2;
+    font-size: 21px;
+}
+footer div{
+    margin-top: 140px;
+}
+footer img{
+    padding: 100px;
+}
+
+
+
+.konec{
+    background-color: #4ea5b2;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px ;
+}
